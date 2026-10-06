@@ -88,6 +88,7 @@ display: none;
 border: 0;
 background: transparent;
 font-size: 25px;
+color: var(--pink-dark);
 cursor: pointer;
 }
 
