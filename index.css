@@ -54,13 +54,25 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+.container.nav.open-triger i.fa-solid.fa-bars {
+    display: none;
+}
 
+.container.nav.open-triger  i.fa-solid.fa-xmark {
+    display: block;
+}
 .logo {
 font-family: "Playfair Display", serif;
 font-size: 27px;
 font-weight: 700;
 }
+.menu-btn i {
+    font-size: 20px;
+}
 
+i.fa-solid.fa-xmark {
+    display: none;
+}
 .logo span,
 h1 span,
 h2 span {
